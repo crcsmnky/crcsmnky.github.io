@@ -36,3 +36,5 @@ JavaPairRDD<Object,BSONObject> bsonData = sc.newAPIHadoopFile(
     BSONFileInputFormat.class, Object.class,
     BSONObject.class, bsonDataConfig);
 {% endhighlight %}
+
+*Update*: here's a link to my [mongodb-spark-demo](https://github.com/crcsmnky/mongodb-spark-demo) repo if you want to see an example in action.
